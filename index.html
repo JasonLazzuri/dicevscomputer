@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <h1>Pig Dice</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" id="player1-column">
+          <h2>Player 1</h2>
+          <h3>Turns</h3>
+          <ul id="player1-turns"></ul>
+          <h3>Total Score</h3>
+          <span id="player1-score">0</span>
+        </div>
+        <div class="col-md-3" id="computer-column">
+          <h2>Computer</h2>
+          <h3>Turns</h3>
+          <ul id="computer-turns"></ul>
+          <h3>Total Score</h3>
+          <span id="computer-score">0</span>
+        </div>
+        <div class="col-md-6">
+          <button type="button" id="roll">Roll</button>
+          <button type="button" id="stop">Stop</button>
+          <h2>Dice Roll Result</h2>
+          <span id="result">0</span>
+          <h2>Current Turn Score</h2>
+          <span id="current-turn-score">0</span>
+        </div>
+      </div>
+      <div class="jumbotron" id="player1-wins">
+        Player 1 Wins!
+      </div>
+      <div class="jumbotron" id="computer-wins">
+        Computer Wins!
+      </div>
+    </div>
+  </body>
+</html>

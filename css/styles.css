@@ -1,0 +1,6 @@
+#player1-wins, #computer-wins {
+  display: none;
+  background-color: teal;
+  font-size: 24pt;
+  color: white;
+}
